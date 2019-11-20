@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+import { UserCard } from "./components/UserCard";
 
 class App extends Component {
   constructor() {
@@ -16,7 +17,7 @@ class App extends Component {
   }
   render() {
     console.log(this.state.userInfo);
-    return <div className="App">{this.state.userInfo.login}</div>;
+    return <UserCard />;
   }
 }
 
