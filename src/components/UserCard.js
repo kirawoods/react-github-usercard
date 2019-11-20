@@ -1,7 +1,5 @@
-import React, { Component } from "react";
+import React from "react";
 
-export class UserCard extends Component {
-  render() {
-    return <div>test</div>;
-  }
-}
+export const UserCard = () => {
+  return <div>test</div>;
+};
